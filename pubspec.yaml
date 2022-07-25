@@ -36,6 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   open_file:
   file_picker:
+  material_floating_search_bar:
 
   get:
 

@@ -1,3 +1,4 @@
+import 'package:clean_architecture/screens/search.dart';
 import 'package:clean_architecture/screens/secondScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -130,6 +131,11 @@ class _HomeState extends State<Home> {
                 activeColor: Colors.green,
               ),
             ),
+            RaisedButton(
+                onPressed: () {
+                  Get.to(() => const Search());
+                },
+                child: const Text('Search'))
           ],
         ),
       ),
