@@ -1,0 +1,11 @@
+    - family: Quicksand-Regular
+      fonts:
+        - asset: lib/fonts/Quicksand-Regular.ttf
+    - family: Quicksand-SemiBold
+      fonts:
+        - asset: lib/fonts/Quicksand-SemiBold.ttf
+    - family: Quicksand
+      fonts:
+        - asset: lib/fonts/Quicksand-VariableFont_wght.ttf
+
+
