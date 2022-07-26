@@ -1,7 +1,7 @@
-    - family: Quicksand-Regular
+    - family: QReg
       fonts:
         - asset: lib/fonts/Quicksand-Regular.ttf
-    - family: Quicksand-SemiBold
+    - family: QBold
       fonts:
         - asset: lib/fonts/Quicksand-SemiBold.ttf
     - family: Quicksand

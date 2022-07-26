@@ -1,3 +1,4 @@
+import 'package:clean_architecture/screens/gallery.dart';
 import 'package:clean_architecture/screens/search.dart';
 import 'package:clean_architecture/screens/secondScreen.dart';
 import 'package:flutter/material.dart';
@@ -34,7 +35,10 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Demo'),
+        title: const Text(
+          'Demo',
+          style: TextStyle(fontFamily: 'QBold'),
+        ),
       ),
       body: Center(
         child: Column(
@@ -135,7 +139,12 @@ class _HomeState extends State<Home> {
                 onPressed: () {
                   Get.to(() => const Search());
                 },
-                child: const Text('Search'))
+                child: const Text('Search')),
+            RaisedButton(
+                onPressed: () {
+                  Get.to(() => const Gallery());
+                },
+                child: const Text('Gallery'))
           ],
         ),
       ),
